@@ -5,7 +5,7 @@
   "description": "In-memory SIC database as javascript hash object",
   "licenses": {
     "type": "UNLICENSE",
-    "url": "https://github.com/pluma/sic/blob/master/UNLICENSE"
+    "url": "https://github.com/ReinsBrain/sic-db/blob/master/LICENSE"
   },
   "repository": {
     "type": "git",
