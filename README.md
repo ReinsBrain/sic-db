@@ -15,6 +15,7 @@ var sicdb = require('sic-db');
 or, simply include as a script tag:
 ```html
 <script src="sicdb.js" />
+```
 
 It exposes a few hash objects such as:
 
