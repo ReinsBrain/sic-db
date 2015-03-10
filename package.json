@@ -1,0 +1,24 @@
+{
+  "name": "sic-db",
+  "version": "0.0.1",
+  "author": "Rein Petersen",
+  "description": "In-memory SIC database as javascript hash object",
+  "licenses": {
+    "type": "UNLICENSE",
+    "url": "https://github.com/pluma/sic/blob/master/UNLICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReinsBrain/sic-db.git"
+  },
+  "keywords": [
+    "sic codes",
+    "hash",
+    "Standard Industry Codes",
+    "javascript"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "main": "sicdb.js",
+  "scripts": {}
+}
