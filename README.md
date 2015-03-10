@@ -28,3 +28,5 @@ It exposes a few hash objects such as:
 - sicdb.cats_divs which provides a reverse index of sicdb.divs_cats such that major category (2 digit) codes are the keys and their associated values represent sicdb.divs entries (keys).
 
 TODO: provide some commonly used helper functions, also unit-testing and coverage
+
+Contributions are welcome
