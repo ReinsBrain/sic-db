@@ -1,7 +1,7 @@
 
 var sicdb = {};
 
-if (module && module.exports) { module.exports = sicdb; }
+if (typeof module !== 'undefined' && typeof module.exports !=='undefined') { module.exports = sicdb; }
 
 sicdb.divs = {
 "A":"AGRICULTURE, FORESTRY, AND FISHING",
@@ -35,11 +35,11 @@ var rIndex = {};
 for (var div in index) {
 if (index.hasOwnProperty(div)) {
 for (var i=0; i<index[div].length; i++) {
-rIndex[i] = div; } } }
+rIndex[index[div][i]] = div; } } }
 return rIndex;
 };
 
-sicdb.cats_divs = reverseIndex(divs_cats);
+sicdb.cats_divs = sicdb._reverseIndex(sicdb.divs_cats);
 
 sicdb.list = {
 "01":"AGRICULTURAL PRODUCTION-CROPS",
