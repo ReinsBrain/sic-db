@@ -1,7 +1,7 @@
 
 var sicdb = {};
 
-if (module && module.exports) module.exports = SIC;
+if (module && module.exports) { module.exports = sicdb; }
 
 sicdb.divs = {
 "A":"AGRICULTURE, FORESTRY, AND FISHING",
@@ -32,10 +32,10 @@ sicdb.divs_cats = {
 
 sicdb._reverseIndex = function _reverseIndex(index) {
 var rIndex = {};
-for (var div in index)
-if (index.hasOwnProperty(div))
-for (var i=0; i<index[div].length; i++)
-rIndex[i] = div;
+for (var div in index) {
+if (index.hasOwnProperty(div)) {
+for (var i=0; i<index[div].length; i++) {
+rIndex[i] = div; } } }
 return rIndex;
 };
 
